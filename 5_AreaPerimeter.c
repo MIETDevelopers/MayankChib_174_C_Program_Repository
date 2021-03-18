@@ -2,12 +2,12 @@
 
 int main(){
 	
-	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;
-	scanf("%f %f %f %f", &raduisOfCircle, &sideOfSquare, &legthOfRectangle, &breadthOfRectangle);
+	float radiusOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;
+	scanf("%f %f %f %f", &radiusOfCircle, &sideOfSquare, &legthOfRectangle, &breadthOfRectangle);
 	
-	printf("Area of Circle: %f",((22*raduisOfCircle*raduisOfCircle)/7));
+	printf("Area of Circle: %f",((22*radiusOfCircle*radiusOfCircle)/7));
 	
-	printf("\nPerimeter of Circle: %f",((2*22*raduisOfCircle)/7));
+	printf("\nPerimeter of Circle: %f",((2*22*radiusOfCircle)/7));
 	
 	printf("\nArea of Square: %f",(sideOfSquare*sideOfSquare));
 	
