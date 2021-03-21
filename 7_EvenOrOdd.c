@@ -1,14 +1,16 @@
-#include <stdio.h>
-int main() {
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
+//Name: Mayank Chib
+//Program: Check whether an entered number is even or odd
 
-    // true if num is perfectly divisible by 2
-    if(num % 2 == 0)
-        printf("%d is even.", num);
-    else
-        printf("%d is odd.", num);
-    
-    return 0;
+#include <stdio.h>  //Pre-process directive to include standard input and output functions header file
+
+int main()             //main function
+{
+	int n;                 //variable delaration with data type int
+	printf("Enter point number");          //printf function calling
+	scanf("%d",&n);                     //scanf function calling to receive input 
+	if (n%2==0)                                  //declaration of if else statement
+	   printf("number is even %d",n);           //if  the remainder of a number is 0 after dividing with two, print even
+	else
+	     printf("number is odd %d",n);               //if  the remainder of a number is not 0 after dividing with two, print odd
+	return 0;     //return function
 }
