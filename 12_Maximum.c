@@ -1,31 +1,23 @@
-#include<stdio.h>
+//Name: Mayank Chib
+//Program: Maximum of n numbers using for loop
+#include<stdio.h>     //Pre-process directive to include standard input and output functions header file 
 
-int main()
+int main()            //Main function 
 {
-    int n,i;
-    float c,big;
+  int i,num,n,large=0;   // variable declaration
 
-    printf("Enter the number of elements you wish to find the greatest element of: ");
-    scanf("%d", &n);
-    printf("\nEnter %d numbers : ", n);
+  printf("How many numbers: "); 
+  scanf("%d",&n);
+  
+  for(i=0; i<n; i++)       // Loop to store largest number
+  {
+    printf("\nEnter number %d: ",i+1);
+    scanf("%d",&num);
+    if(num>large)
+    large=num;
+  }
 
-    printf("\nElement 1: ");
+  printf("\n\nThe Largest Number is %d",large);    //print statement should be according to Question
+  return 0;       // return 0 to oprerating system
 
-    //Important step- always initialize big to the first element
-    scanf("%f", &big);
-
-    for(i = 2; i <= n; i++)
-    {
-        printf("\nElement %d  : ", i);
-        scanf("%f", &c);
-        /* 
-            if input number is larger than the 
-            current largest number
-        */
-        if(big < c)  
-            big = c;    // update big to the larger value
-    }
-
-    printf("\nThe largest of the %d numbers is  %f ", n, big);
-    return 0;
 }
