@@ -1,6 +1,8 @@
-#include<stdio.h>            // include stdio.h library 
+//Name: Mayank Chib
+//Program: Calculate sum of digits of a number using while loops
 
- int main()                //Main function 
+#include <stdio.h>         //Pre-process directive to include standard input and output functions header file
+int main()                //Main function 
  {
      int number,lastDigit,sum=0;   // variable declaration
 
