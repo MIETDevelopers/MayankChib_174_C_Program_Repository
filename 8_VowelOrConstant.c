@@ -1,20 +1,31 @@
-#include <stdio.h>
-int main() {
-    char c;
-    int lowercase_vowel, uppercase_vowel;
-    printf("Enter an alphabet: ");
-    scanf("%c", &c);
+//Name: Mayank Chib
+//Program: Check whether the alphabet is a vowel or consonant
+#include <stdio.h>    //Pre-process directive to include standard input and output functions header file
 
-    // evaluates to 1 if variable c is a lowercase vowel
-    lowercase_vowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-
-    // evaluates to 1 if variable c is a uppercase vowel
-    uppercase_vowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-
-    // evaluates to 1 (true) if c is a vowel
-    if (lowercase_vowel || uppercase_vowel)
-        printf("%c is a vowel.", c);
-    else
-        printf("%c is a consonant.", c);
-    return 0;
+int main()            //main function
+{
+    char ch;      //variable declaration with data type char
+    printf("Enter character\n");  //printf function calling
+    scanf("%c",&ch);        //scanf function calling
+    //variable definition using switch case for both uppercase and lowercase variable "c"
+    switch(ch)
+    {
+        case'a':
+        case'e':
+        case'i':
+        case'o':
+        case'u':
+        case'A':
+        case'E':
+        case'I':
+        case'O':
+        case'U':
+        printf("%c is a vowel",ch);
+        break;
+        //if variable doesn't match any case variable 
+        default:
+        printf("%c is a consonant",ch);
+        break;
+    }   
+     return 0; //return function 
 }
