@@ -1,5 +1,7 @@
-#include<stdio.h>          // include stdio.h library   // variable declaration
+//Name: Mayank Chib
+//Program: Check no. is armstrong or not using while loop
 
+#include <stdio.h>         //Pre-process directive to include standard input and output functions header file
 int main()                 //Main function
 {
 int n,num,r,ans=0;    // variable declaration
