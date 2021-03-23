@@ -1,8 +1,8 @@
 //Name: Mayank Chib
-//Program: Program to check whether the number is prime or not
+//Program: Maximum of n numbers using for loop
+#include<stdio.h>     //Pre-process directive to include standard input and output functions header file 
 
-#include <stdio.h>         //Pre-process directive to include standard input and output functions header file
-int main(){ //main function
+int main()            //Main function 
 {
   int i,num,n,large=0;   // variable declaration
 
