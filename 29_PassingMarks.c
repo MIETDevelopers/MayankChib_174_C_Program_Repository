@@ -1,4 +1,4 @@
-//Name: Yogita Tufchi
+//Name: Mayank Chib 
 //Program to store Array of structures for student marks for each student and passing it to function for various operations          
 #include <stdio.h>
 #include <string.h>
