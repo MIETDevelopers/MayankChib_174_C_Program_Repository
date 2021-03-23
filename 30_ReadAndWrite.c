@@ -1,4 +1,4 @@
-//Name: Yogita Tufchi
+//Name: Mayank Chib 
 //Program: reading and writing text files.				
 #include <stdio.h>
 #include <stdlib.h>
