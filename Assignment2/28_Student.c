@@ -1,6 +1,6 @@
 //Name: Mayank Chib
 //Program:Student structure should contain, name, marks in different subjects, attendance percentage, Roll Number
-
+// This Program is incomplete
 #include <stdio.h>  //Pre-process directive to include standard input and output functions header file
 struct student {
     char name[50];
