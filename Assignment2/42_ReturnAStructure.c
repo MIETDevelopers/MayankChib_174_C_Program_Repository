@@ -1,4 +1,4 @@
-/*Name : Yogita Tufchi,
+/*Name : Mayank Chib
 Function implementation which return a structure*/
 
 #include <stdio.h>  //Pre-process directive to include standard input and output functions header file
