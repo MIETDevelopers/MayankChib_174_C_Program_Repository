@@ -1,4 +1,4 @@
-//Name : Mayaqnk Chib
+//Name : Mayank Chib
 // C program to illustrate the concept of returning pointer from a function
 #include <stdio.h>
  
