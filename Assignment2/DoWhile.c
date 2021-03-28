@@ -1,5 +1,5 @@
 //Name: Mayank Chib
-//Program:
+//Program: Program to add numbers until the user enters zero
 
 #include<stdio.h>   //Pre-process directive to include standard input and output functions header file 
 
